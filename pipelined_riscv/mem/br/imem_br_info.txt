@@ -1,0 +1,27 @@
+// BUFFER
+
+// beq rs2, offset(imm[11:5])
+0000000_00010_00001_000_10000_1100011  // if(R[rs1] == R[rs2]): PC ← PC + {offset, 1b0}
+//                         ^ This is the second bit of the imm, first is implicity a 0, 
+//                          then we append another 0 to make it word aligned (shifted left by 2)
+// Checks r2 and r1 data and then adds pc + imm if it equals 
+
+// BNE rs1, rs2, offset
+// Format: imm[12] imm[10:5] rs2 rs1 funct3 imm[4:1] imm[11] opcode
+0000000_00010_00001_001_00010_1100011  // BNE x1, x2, offset
+
+// BLT rs1, rs2, offset
+// Format: imm[12] imm[10:5] rs2 rs1 funct3 imm[4:1] imm[11] opcode
+0000000_00010_00001_100_00010_1100011  // BLT x1, x2, offset
+
+// BGE rs1, rs2, offset
+// Format: imm[12] imm[10:5] rs2 rs1 funct3 imm[4:1] imm[11] opcode
+0000000_00010_00001_101_00010_1100011  // BGE x1, x2, offset
+
+// BLTU rs1, rs2, offset
+// Format: imm[12] imm[10:5] rs2 rs1 funct3 imm[4:1] imm[11] opcode
+0000000_00010_00001_110_00010_1100011  // BLTU x1, x2, offset
+
+// BGEU rs1, rs2, offset
+// Format: imm[12] imm[10:5] rs2 rs1 funct3 imm[4:1] imm[11] opcode
+0000000_00010_00001_111_00010_1100011  // BGEU x1, x2, offset

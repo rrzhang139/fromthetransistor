@@ -1,0 +1,5 @@
+iverilog -g2012 -o <filename>.out <filename>.v <filename_tb>.v
+
+vvp <filename>.out
+
+gtkwave <filename>.vcd

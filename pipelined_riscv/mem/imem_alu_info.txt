@@ -1,0 +1,22 @@
+// BUFFER
+00000000000000000000000000000000
+// ADD: Add contents of reg1 and reg2, store in reg3
+0000000_00010_00001_000_00011_0110011
+// SUB: Subtract contents of reg2 from reg1, store in reg3
+0100000_00010_00001_000_00011_0110011
+// AND: Bitwise AND of reg1 and reg2, store in reg3
+0000000_00010_00001_111_00011_0110011
+// OR: Bitwise OR of reg1 and reg2, store in reg3
+0000000_00010_00001_110_00011_0110011
+// XOR: Bitwise XOR of reg1 and reg2, store in reg3
+0000000_00010_00001_100_00011_0110011
+// SLL: Shift left logical reg1 by value in reg2, store in reg3
+0000000_00010_00001_001_00011_0110011
+// SRL: Shift right logical reg1 by value in reg2, store in reg3
+0000000_00010_00001_101_00011_0110011
+// SRA: Shift right arithmetic reg1 by value in reg2, store in reg3
+0100000_00010_00001_101_00011_0110011
+// MUL: Multiply reg1 and reg2, store in reg3
+0000001_00010_00001_000_00011_0110011
+// DIV: Divide reg1 by reg2, store in reg3
+0000001_00010_00001_100_00011_0110011

@@ -1,0 +1,93 @@
+$date
+	Sun Nov 26 23:03:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module immgen_tb $end
+$var wire 32 ! Imm [31:0] $end
+$var reg 32 " Inst [31:0] $end
+$var reg 3 # InstFormat [2:0] $end
+$scope module uut $end
+$var wire 32 $ Inst [31:0] $end
+$var wire 3 % InstFormat [2:0] $end
+$var parameter 32 & AluOp_ADD $end
+$var parameter 32 ' AluOp_AND $end
+$var parameter 32 ( AluOp_DIV $end
+$var parameter 32 ) AluOp_MUL $end
+$var parameter 32 * AluOp_OR $end
+$var parameter 32 + AluOp_SLL $end
+$var parameter 32 , AluOp_SLTI $end
+$var parameter 32 - AluOp_SRA $end
+$var parameter 32 . AluOp_SRL $end
+$var parameter 32 / AluOp_SUB $end
+$var parameter 32 0 AluOp_XOR $end
+$var parameter 3 1 InstFormat_I $end
+$var parameter 3 2 InstFormat_R $end
+$var parameter 3 3 InstFormat_S $end
+$var parameter 3 4 InstFormat_SB $end
+$var parameter 3 5 InstFormat_U $end
+$var parameter 3 6 InstFormat_UJ $end
+$var reg 32 7 Imm [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 6
+b100 5
+b11 4
+b10 3
+b0 2
+b1 1
+b100 0
+b1 /
+b110 .
+b111 -
+b1010 ,
+b101 +
+b11 *
+b1000 )
+b1001 (
+b10 '
+b0 &
+$end
+#0
+$dumpvars
+b1 7
+b1 %
+b100001000000010010011 $
+b1 #
+b100001000000010010011 "
+b1 !
+$end
+#10000
+b100001000000010100011 "
+b100001000000010100011 $
+b10 #
+b10 %
+#20000
+b110 !
+b110 7
+b100001000001100001111 "
+b100001000001100001111 $
+b11 #
+b11 %
+#30000
+b1000000000000 !
+b1000000000000 7
+b1000010110111 "
+b1000010110111 $
+b100 #
+b100 %
+#40000
+b1000000000000001000 !
+b1000000000000001000 7
+b100001000001101101111 "
+b100001000001101101111 $
+b101 #
+b101 %
+#50000

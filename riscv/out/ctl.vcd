@@ -1,0 +1,171 @@
+$date
+	Fri Nov 17 21:42:40 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ctl_tb $end
+$var wire 1 ! wreg $end
+$var wire 1 " wmem $end
+$var wire 1 # wbsel $end
+$var wire 1 $ rmem $end
+$var wire 5 % regd [4:0] $end
+$var wire 5 & reg2 [4:0] $end
+$var wire 5 ' reg1 [4:0] $end
+$var wire 1 ( inst_undef $end
+$var wire 1 ) inst_format $end
+$var wire 1 * bsel $end
+$var wire 4 + aluop [3:0] $end
+$var parameter 32 , AluOp_ADD $end
+$var parameter 32 - AluOp_AND $end
+$var parameter 32 . AluOp_DIV $end
+$var parameter 32 / AluOp_MUL $end
+$var parameter 32 0 AluOp_OR $end
+$var parameter 32 1 AluOp_SLL $end
+$var parameter 32 2 AluOp_SRA $end
+$var parameter 32 3 AluOp_SRL $end
+$var parameter 32 4 AluOp_SUB $end
+$var parameter 32 5 AluOp_SUBU $end
+$var parameter 32 6 AluOp_XOR $end
+$var parameter 32 7 InstFormat_I $end
+$var parameter 32 8 InstFormat_R $end
+$var parameter 32 9 InstFormat_S $end
+$var parameter 32 : InstFormat_SB $end
+$var parameter 32 ; InstFormat_U $end
+$var parameter 32 < InstFormat_UJ $end
+$var reg 1 = clk $end
+$var reg 32 > idata [31:0] $end
+$var reg 1 ? rst $end
+$scope module uut $end
+$var wire 1 = clk $end
+$var wire 32 @ idata [31:0] $end
+$var wire 1 ? rst $end
+$var wire 5 A regd [4:0] $end
+$var wire 5 B reg2 [4:0] $end
+$var wire 5 C reg1 [4:0] $end
+$var wire 7 D OpCode [6:0] $end
+$var wire 7 E Funct7 [6:0] $end
+$var wire 3 F Funct3 [2:0] $end
+$var parameter 32 G AluOp_ADD $end
+$var parameter 32 H AluOp_AND $end
+$var parameter 32 I AluOp_DIV $end
+$var parameter 32 J AluOp_MUL $end
+$var parameter 32 K AluOp_OR $end
+$var parameter 32 L AluOp_SLL $end
+$var parameter 32 M AluOp_SRA $end
+$var parameter 32 N AluOp_SRL $end
+$var parameter 32 O AluOp_SUB $end
+$var parameter 32 P AluOp_SUBU $end
+$var parameter 32 Q AluOp_XOR $end
+$var parameter 32 R InstFormat_I $end
+$var parameter 32 S InstFormat_R $end
+$var parameter 32 T InstFormat_S $end
+$var parameter 32 U InstFormat_SB $end
+$var parameter 32 V InstFormat_U $end
+$var parameter 32 W InstFormat_UJ $end
+$var reg 4 X aluop [3:0] $end
+$var reg 1 * bsel $end
+$var reg 1 ) inst_format $end
+$var reg 1 ( inst_undef $end
+$var reg 1 $ rmem $end
+$var reg 1 # wbsel $end
+$var reg 1 " wmem $end
+$var reg 1 ! wreg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 W
+b100 V
+b11 U
+b10 T
+b0 S
+b1 R
+b101 Q
+b10 P
+b1 O
+b111 N
+b1000 M
+b110 L
+b100 K
+b1001 J
+b1010 I
+b11 H
+b0 G
+b101 <
+b100 ;
+b11 :
+b10 9
+b0 8
+b1 7
+b101 6
+b10 5
+b1 4
+b111 3
+b1000 2
+b110 1
+b100 0
+b1001 /
+b1010 .
+b11 -
+b0 ,
+$end
+#0
+$dumpvars
+bx X
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+1?
+b0 >
+0=
+bx +
+0*
+0)
+x(
+b0 '
+b0 &
+b0 %
+0$
+0#
+0"
+0!
+$end
+#5000
+1=
+#10000
+b110011 D
+b1011 %
+b1011 A
+b1001 '
+b1001 C
+b1010 &
+b1010 B
+0=
+b101001001000010110110011 >
+b101001001000010110110011 @
+0?
+#15000
+b0 +
+b0 X
+1!
+1=
+#20000
+b100000 E
+0=
+b1000000101001001000010110110011 >
+b1000000101001001000010110110011 @
+#25000
+b1 +
+b1 X
+1=
+#30000
+0=

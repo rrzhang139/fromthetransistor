@@ -1,0 +1,43 @@
+$date
+	Tue Nov 21 13:02:36 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_tb $end
+$var wire 32 ! iout [31:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 32 $ iout [31:0] $end
+$var reg 32 % pc [31:0] $end
+$scope module imem $end
+$var wire 32 & addr [31:0] $end
+$var wire 32 ' data [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101001001000010110110011 '
+b0 &
+b0 %
+b101001001000010110110011 $
+1#
+0"
+b101001001000010110110011 !
+$end
+#5000
+1"
+#10000
+0"
+0#
